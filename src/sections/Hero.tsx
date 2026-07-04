@@ -145,13 +145,13 @@ export default function Hero({ onOpenResume }: HeroProps) {
               <div className="absolute inset-0 bg-gradient-to-tr from-accent/20 via-transparent to-indigo-600/10 opacity-60 group-hover:opacity-100 transition duration-500" />
               
               <div className="relative z-10 flex flex-col items-center text-center">
-                <motion.div
-                  animate={{ y: [0, -5, 0] }}
-                  transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                  className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#0A84FF] to-blue-600 rounded-2xl shadow-[0_0_30px_rgba(10,132,255,0.3)] flex items-center justify-center text-white text-2xl sm:text-3xl font-display font-bold tracking-tighter"
-                >
-                  G
-                </motion.div>
+                <motion.img
+                src="/profile.jpg"
+  alt="Gaurav"
+  animate={{ y: [0, -5, 0] }}
+  transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+  className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover border-2 border-white/10 shadow-[0_0_30px_rgba(10,132,255,0.3)]"
+/>
                 <div className="mt-3">
                   <p className="text-white text-xs font-mono tracking-wider uppercase">Gaurav</p>
                   <p className="text-[9px] text-white/50 font-mono mt-0.5">iOS Specialization 2024–28</p>

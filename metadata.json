@@ -1,0 +1,6 @@
+{
+  "name": "Gaurav Portfolio",
+  "description": "A premium, highly polished personal portfolio website of Gaurav, a Computer Science Engineering student specializing in iOS and Backend Development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

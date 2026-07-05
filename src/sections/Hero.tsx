@@ -82,7 +82,7 @@ export default function Hero({ onOpenResume }: HeroProps) {
 
             <div className="space-y-2">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-extrabold tracking-tight text-white leading-tight">
-                Hey, I'm <span className="text-accent">Gaurav</span>
+                Hey, I'm <span className="text-accent">TESTING</span>
               </h1>
               
               <div className="h-8 sm:h-10 text-lg sm:text-2xl font-mono text-white/50 font-medium flex items-center">
